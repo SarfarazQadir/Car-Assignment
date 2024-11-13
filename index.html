@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body background="Assets/picture-highway-that-passing-through-260nw-1837837225.webp" style="background-repeat: no-repeat; background-size: cover; position: relative; overflow: hidden;">
-    <div>
-        <img class="box" src="Assets/vecteezy_3d-colorful-delivery-car-deliver-cardboard-boxes_28028484.png" style="height: 500px; height: 500px; position: absolute; bottom: 10;left: 1100px;top: 150px; " alt="">
+<body background="Assets/picture-highway-that-passing-through-260nw-1837837225.webp"
+    style="background-repeat: no-repeat; background-size: cover; position: relative; overflow: hidden;">
+    <div class="car">
+        <img class="box" src="Assets/vecteezy_3d-colorful-delivery-car-deliver-cardboard-boxes_28028484.png" alt="">
     </div>
     <div>
-<img src="Assets/signal.png" style="height: 200px; width: 200px;" alt="">        
-<div id="green" style="background-color: green; height: 40px;width: 40px; position: absolute; left: 80px; border-radius: 50%; bottom: 30px; cursor: pointer;visibility: hidden;" onclick="signal('green')"></div>
-<div id="yellow" style="background-color: yellow; height: 40px;width: 40px; position: absolute;top: 80px; left: 80px; border-radius: 50%; bottom: 50px; cursor: pointer;visibility: hidden;" onclick="signal('yellow')"></div>
-<div id="red" style="background-color: red; height: 40px;width: 40px; position: absolute;top: 30px; left: 80px; border-radius: 50%; bottom: 50px; cursor: pointer;visibility: visible;" onclick="signal('red')" >
-</div>
+        <img class="signal" src="Assets/signal.png" alt="">
+        <div id="green" onclick="signal('green')"></div>
+        <div id="yellow" onclick="signal('yellow')"></div>
+        <div id="red" onclick="signal('red')">
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="script.js">
-       
+
     </script>
 </body>
 </html>
