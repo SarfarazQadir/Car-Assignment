@@ -1,3 +1,10 @@
+.body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
 .car .box {
     height: 500px;
     height: 500px;
@@ -6,18 +13,46 @@
     left: 1100px;
     top: 150px;
 }
-.signal{
-    height: 200px; width: 200px;
+
+.signal {
+    height: 200px;
+    width: 200px;
 }
 
-#green{
-    background-color: green; height: 40px;width: 40px; position: absolute; left: 80px; border-radius: 50%; bottom: 30px; cursor: pointer;visibility: hidden;
+#green {
+    background-color: green;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 80px;
+    border-radius: 50%;
+    bottom: 30px;
+    cursor: pointer;
+    visibility: hidden;
 }
 
-#yellow{
-    background-color: yellow; height: 40px;width: 40px; position: absolute;top: 80px; left: 80px; border-radius: 50%; bottom: 50px; cursor: pointer;visibility: hidden;
+#yellow {
+    background-color: yellow;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    border-radius: 50%;
+    bottom: 50px;
+    cursor: pointer;
+    visibility: hidden;
 }
 
-#red{
-    background-color: red; height: 40px;width: 40px; position: absolute;top: 30px; left: 80px; border-radius: 50%; bottom: 50px; cursor: pointer;visibility: visible;
+#red {
+    background-color: red;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    border-radius: 50%;
+    bottom: 50px;
+    cursor: pointer;
+    visibility: visible;
 }
