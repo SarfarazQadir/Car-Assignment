@@ -23,6 +23,9 @@ function red() {
   gsap.killTweensOf(car);
   var red = document.getElementById("red");
   red.style.backgroundColor = "red";
+  Green.style.opacity = "0";
+  Yellow.style.opacity = "0";
+  Red.style.opacity = "100";
 }
 function green() {
   gsap
@@ -31,6 +34,7 @@ function green() {
   cargoing.play();
   var green = document.getElementById("green");
   green.style.backgroundColor = "green";
+  Green.style.opacity = "100";
   Yellow.style.opacity = "0";
   Red.style.opacity = "0";
 }
@@ -38,4 +42,7 @@ function yellow() {
   start.play();
   var yellow = document.getElementById("yellow");
   yellow.style.backgroundColor = "yellow";
+  Green.style.opacity = "0";
+  Yellow.style.opacity = "100";
+  Red.style.opacity = "0";
 }
