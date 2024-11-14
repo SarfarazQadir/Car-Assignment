@@ -10,7 +10,7 @@
     height: 500px;
     position: absolute;
     bottom: 10;
-    left: 1100px;
+    left: 900px;
     top: 150px;
 }
 
@@ -48,10 +48,10 @@
     bottom: 50px;
 }
 
-#cargoing{
+#cargoing {
     display: none;
 }
 
-#start{
+#start {
     display: none;
 }
