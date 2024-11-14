@@ -1,15 +1,3 @@
-// function red(){
-//    var a = red.style= "visible";
-//    var b = green.style= "visible";
-//    var c = yellow.style= "visible";
-//     if(red.style == "visible"){
-//         b.style = "hidden";
-//         c.style = "hidden";
-//     }else if(b == "visible"){
-
-//     }
-// }
-
 var Yellow = document.getElementById("yellow");
 var Red = document.getElementById("red");
 var Green = document.getElementById("green");
@@ -46,3 +34,69 @@ function yellow() {
   Yellow.style.opacity = "100";
   Red.style.opacity = "0";
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function red(){
+//    var a = red.style= "visible";
+//    var b = green.style= "visible";
+//    var c = yellow.style= "visible";
+//     if(red.style == "visible"){
+//         b.style = "hidden";
+//         c.style = "hidden";
+//     }else if(b == "visible"){
+
+//     }
+// }
+
