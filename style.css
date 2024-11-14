@@ -6,12 +6,12 @@
 }
 
 .car .box {
-    height: 500px;
-    height: 500px;
+    height: 400px;
+    height: 400px;
     position: absolute;
     bottom: 10;
-    left: 900px;
-    top: 150px;
+    left: 990px;
+    top: 250px;
 }
 
 .signal {
